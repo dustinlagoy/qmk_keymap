@@ -1,4 +1,3 @@
-
 name: Build QMK firmware
 on: [push, workflow_dispatch]
 
@@ -11,7 +10,7 @@ jobs:
       matrix:
 # List of keymap json files to build
         file:
-        - username.json
+        - atreus.json
 # End of json file list
 
     steps:
