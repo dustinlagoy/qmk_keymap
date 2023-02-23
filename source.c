@@ -4,9 +4,8 @@
 #define ctl_bsp CTL_T(KC_BSPC)
 #define sft_spc SFT_T(KC_SPC)
 
-#define TAPPING_FORCE_HOLD_PER_KEY
 bool get_tapping_force_hold(uint16_t keycode, keyrecord_t *record) {
-  switch (foienkeycode) {
+  switch (keycode) {
     case LT(1, KC_T):
       return true;
     case LT(1, KC_N):
